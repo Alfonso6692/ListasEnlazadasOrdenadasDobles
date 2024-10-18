@@ -20,12 +20,18 @@ public class Main {
 //        //listaEnlazadaOrdenada.buscar(1);
 
         ListaEnlazadaDoble listaEnlazadaDoble = new ListaEnlazadaDoble();
+        ListaEnlazada listaEnlazada = new ListaEnlazada();
+        listaEnlazada.eliminar(1);
         listaEnlazadaDoble.agregar(1);
         listaEnlazadaDoble.agregar(2);
         listaEnlazadaDoble.agregar(3);
         listaEnlazadaDoble.agregar(4);
+        listaEnlazadaDoble.eliminarInicio();//elimina el inicio "1"
+        listaEnlazadaDoble.eliminar();//elimina el ultimo "4"
         listaEnlazadaDoble.agregarinicio(5);
+        listaEnlazadaDoble.tamaño();
         listaEnlazadaDoble.verLista();
+
 
 
 
