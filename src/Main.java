@@ -1,3 +1,5 @@
+import org.w3c.dom.CDATASection;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -21,15 +23,17 @@ public class Main {
 
         ListaEnlazadaDoble listaEnlazadaDoble = new ListaEnlazadaDoble();
         ListaEnlazada listaEnlazada = new ListaEnlazada();
-        listaEnlazada.eliminar(1);
+        //listaEnlazada.eliminar(1);
         listaEnlazadaDoble.agregar(1);
         listaEnlazadaDoble.agregar(2);
         listaEnlazadaDoble.agregar(3);
         listaEnlazadaDoble.agregar(4);
-        listaEnlazadaDoble.eliminarInicio();//elimina el inicio "1"
-        listaEnlazadaDoble.eliminar();//elimina el ultimo "4"
-        listaEnlazadaDoble.agregarinicio(5);
-        listaEnlazadaDoble.tamaño();
+        //listaEnlazadaDoble.eliminarInicio();//elimina el inicio "1"
+        //istaEnlazadaDoble.eliminar();//elimina el ultimo "4"
+        //listaEnlazadaDoble.agregarinicio(5);
+        //listaEnlazadaDoble.tamaño();
+        System.out.println();
+
         listaEnlazadaDoble.verLista();
 
 
